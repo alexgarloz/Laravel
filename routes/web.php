@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', HomeController::class);
+
+Route::get('cursos', function () {
+    return "Bienvenido a la pagina cursos";
+});
+
+// si la url no es cursos/create, pasará al siguiente Route
+
+Route::get('cursos/create', function () {
+    return "En esta pagina podrás crear un curso";
+});
+
+Route::get('cursos/{curso}', function ($curso) {
+    return "Bienvenido al curso: $curso";
 });
