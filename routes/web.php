@@ -15,7 +15,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', HomeController::class);
 
-Route::get('cursos', function () {
+Route::get('cursos',  function () {
     return "Bienvenido a la pagina cursos";
 });
 
