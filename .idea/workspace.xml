@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efd018f7-79b4-4387-8b42-e9a4bb9b5562" name="Default Changelist" comment="creando direcciones router">
-      <change afterPath="$PROJECT_DIR$/resources/views/cursos/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cursos/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.php" afterDir="false" />
+    <list default="true" id="efd018f7-79b4-4387-8b42-e9a4bb9b5562" name="Default Changelist" comment="pasando la vista al controller">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/plantilla.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cursos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cursos/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cursos/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cursos/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +140,9 @@
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qARCMNzksUwgTRMypL7Wgnr3xW" />
@@ -152,6 +160,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -168,7 +181,8 @@
       <updated>1616520279250</updated>
       <workItem from="1616520280420" duration="104000" />
       <workItem from="1616520438573" duration="4359000" />
-      <workItem from="1616579246381" duration="1985000" />
+      <workItem from="1616579246381" duration="7006000" />
+      <workItem from="1616659178188" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <created>1616522050331</created>
@@ -184,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616537340053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pasando la vista al controller">
+      <created>1616607831379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616607831379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +229,7 @@
     </ignored-roots>
     <MESSAGE value="prueba" />
     <MESSAGE value="creando direcciones router" />
-    <option name="LAST_COMMIT_MESSAGE" value="creando direcciones router" />
+    <MESSAGE value="pasando la vista al controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasando la vista al controller" />
   </component>
 </project>
